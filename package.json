@@ -1,11 +1,19 @@
 {
-  "name": "stremio-addon",
-  "version": "1.0.0",
-  "main": "server.js",
+  "name": "filmxy-multi-stremio-addon",
+  "version": "1.1.0",
+  "description": "Stremio HTTP addon aggregating Filmxy.vip, Streamx.sh, Cinevo.site & Fluxtv.qzz.io (up to 4K + subtitles)",
+  "main": "index.js",
   "scripts": {
-    "start": "node server.js"
+    "start": "node index.js",
+    "dev": "node index.js"
   },
   "dependencies": {
+    "axios": "^1.8.0",
+    "cheerio": "^1.0.0-rc.12",
+    "express": "^4.21.0",
     "stremio-addon-sdk": "^1.6.0"
+  },
+  "engines": {
+    "node": ">=18"
   }
 }
