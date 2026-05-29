@@ -1,0 +1,11 @@
+{
+  "name": "my-stremio-addon",
+  "version": "1.0.0",
+  "main": "server.js",
+  "dependencies": {
+    "stremio-addon-sdk": "^3.0.0"
+  },
+  "scripts": {
+    "start": "node server.js"
+  }
+}
